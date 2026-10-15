@@ -3,24 +3,42 @@
   <head>
     <title>My First Website</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>Alban BESNARD</h1>
-    <p>Just a guy learning html</p>
-    <ul>
-      <li>Volley</li>
-      <li>Chess</li>
-      <li>Genetics</li>
-    </ul>
-    <br />
-    <hr />
-    <a href="https://google.com"> Google </a>
-    <br />
-    <img
-      src="https://picsum.photos/300"
-      alt="A random placeholder image"
-      width="300"
-      height="300"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Alban BESNARD</h1>
+      <p>Just a guy learning html, here are some things I like:</p>
+      <ul>
+        <li><i class="fas fa-volleyball-ball"></i> Volley</li>
+        <li><i class="fas fa-chess"></i> Chess</li>
+        <li><i class="fas fa-dna"></i> Genetics</li>
+      </ul>
+
+      <hr />
+      <div class="profile">
+        <img src="photo_Profil.png" alt="my profile photo" />
+        <div class="social">
+          <a
+            href="https://github.com/besnarda"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alban-besnard-5aaa5ab0"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

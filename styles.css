@@ -1,8 +1,44 @@
-p {
-  color: red;
-  font-size: 20 px;
+body {
+  margin: 0;
+  background: #f8f9fa;
+  color: #222;
+  font-family: Georgia, serif;
 }
-li {
-  color: rgb(34, 255, 0);
-  font-size: 20 px;
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px; /* largeur maximale du bloc */
+  margin: 0 auto; /* centre le bloc horizontalement */
+  padding: 50px 20px; /* le vide autour */
+}
+
+.container section + section {
+  margin-top: 64px; /* espace entre deux sections */
+}
+
+.profile {
+  display: flex;
+  gap: 48px;
+  align-items: center; /* au lieu de flex-start */
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.social a {
+  font-size: 32px;
+  margin-right: 12px;
+  color: black;
+}
+
+.social a:hover {
+  color: #0a66c2;
 }
